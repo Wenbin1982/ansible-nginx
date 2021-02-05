@@ -1,9 +1,5 @@
 nginx
 =====
-
-## @jdauphant : I don't have time to manage anymore this role. Don't hesitate to fork and made your own version.
-
-
 This role installs and configures the nginx web server. The user can specify
 any http configuration parameters they wish to apply their site. Any number of
 sites can be added with configurations of your choice.
@@ -19,12 +15,6 @@ in the metadata file. (Some older version of the role support Ansible 1.4)
 For FreeBSD a working pkgng setup is required (see: https://www.freebsd.org/doc/handbook/pkgng-intro.html )
 Installation of Nginx Amplify agent is only supported on CentOS, RedHat, Amazon, Debian and Ubuntu distributions.
 
-Install
--------
-
-```sh
-ansible-galaxy install jdauphant.nginx
-```
 
 Role Variables
 --------------
