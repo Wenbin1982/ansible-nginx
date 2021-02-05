@@ -15,12 +15,6 @@ in the metadata file. (Some older version of the role support Ansible 1.4)
 For FreeBSD a working pkgng setup is required (see: https://www.freebsd.org/doc/handbook/pkgng-intro.html )
 Installation of Nginx Amplify agent is only supported on CentOS, RedHat, Amazon, Debian and Ubuntu distributions.
 
-Install
--------
-
-```sh
-ansible-galaxy install jdauphant.nginx
-```
 
 Role Variables
 --------------
